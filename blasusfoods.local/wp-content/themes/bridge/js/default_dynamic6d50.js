@@ -119,7 +119,7 @@
 			var marker = new google.maps.Marker({
 			map: map,
 			position: results[0].geometry.location,
-							icon:  'wp-content/themes/bridge/img/pin.png',
+							icon:  'http://blasusfoods.local/wp-content/themes/bridge/img/pin.png',
 						title: data['store_title']
 			});
 			google.maps.event.addListener(marker, 'click', function() {
